@@ -10,4 +10,6 @@ function readFileHelper(p) {     // #2
   });
 }
 
-readFileHelper(process.argv[2]); // #1
+x = process.argv[2]
+y = x
+readFileHelper(y); // #1
