@@ -12,4 +12,5 @@ function readFileHelper(p) {     // #2
 
 x = process.argv[2]
 y = x
+z = y
 readFileHelper(y); // #1
